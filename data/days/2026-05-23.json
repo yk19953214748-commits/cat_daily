@@ -1,0 +1,56 @@
+{
+  "date": "2026-05-23",
+  "title": "豌豆、胡豆、土豆和波比 · 2026.05.23 日记",
+  "summary": "成都今天基本晴，当前 26°C，预计 22°C 到 32°C。家里的三猫一狗今日日记已经建档，等待白天巡视逐步补完。",
+  "cover_summary": "成都今天基本晴，当前 26°C，预计 22°C 到 32°C。家里的三猫一狗今日日记已经建档，等待白天巡视逐步补完。",
+  "cover_image": "services/catdaily-journal/assets/styled/2026-05-23/cover/seedream_1779540494_0.jpeg",
+  "stats": [
+    {
+      "label": "吃饭",
+      "value": "5 次",
+      "detail": "首次 21:14，末次 23:26，累计 2分钟56秒。",
+      "tone": "food"
+    },
+    {
+      "label": "喝水",
+      "value": "0 次",
+      "detail": "当天暂无记录。",
+      "tone": "water"
+    },
+    {
+      "label": "上厕所",
+      "value": "0 次",
+      "detail": "当天暂无记录。",
+      "tone": "litter"
+    }
+  ],
+  "phases": [
+    {
+      "slug": "midnight",
+      "slots": []
+    },
+    {
+      "slug": "daylight",
+      "slots": []
+    },
+    {
+      "slug": "evening",
+      "slots": []
+    }
+  ],
+  "cover_prompt": "1:1正方形构图宠物日记封面。主角是家里的三只猫和一只狗：狸花猫豌豆、虎斑猫胡豆、白灰相间的中华田园猫土豆、泰迪犬波比。整体波普风Q版手绘插画风格。地点成都，天气基本晴，当前26°C，今日22°C~32°C。把日期2026-05-23和天气文案像杂志封面一样醒目排布。背景必须画出成都家庭室内与窗外天气氛围。整体明亮、可爱、色块大胆、印刷颗粒感。必须是1:1正方形。",
+  "weather": {
+    "source": "open-meteo",
+    "location_name": "成都",
+    "latitude": 30.5728,
+    "longitude": 104.0668,
+    "timezone": "Asia/Shanghai",
+    "weather_code": 1,
+    "weather_text": "基本晴",
+    "current_temp": "26",
+    "temp_min": "22",
+    "temp_max": "32",
+    "observed_at": "2026-05-23T20:45"
+  },
+  "updated_at": "2026-05-23T20:48:21.328708+08:00"
+}
