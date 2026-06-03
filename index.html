@@ -18,11 +18,11 @@
           <p class="brand-subtitle">Cat Daily</p>
         </div>
         <div class="topbar-actions">
-          <a class="button button-primary" href="days/2026-05-23/index.html">查看最新日记</a>
+          <a class="button button-primary" href="days/2026-06-03/index.html">查看最新日记</a>
           <div class="calendar-picker">
             <button id="calendar-trigger" class="date-picker-shell" type="button" aria-expanded="false" aria-controls="calendar-popover">
               <span class="date-picker-label">选择日期</span>
-              <span id="calendar-trigger-text" class="date-picker-value">2026.05.23</span>
+              <span id="calendar-trigger-text" class="date-picker-value">2026.06.03</span>
             </button>
             <div id="calendar-popover" class="calendar-popover" hidden>
               <div class="calendar-head">
@@ -69,11 +69,11 @@
             
           </div>
         </div>
-        <a class="latest-card panel panel-pop" href="days/2026-05-23/index.html" aria-label="查看最新日记">
+        <a class="latest-card panel panel-pop" href="days/2026-06-03/index.html" aria-label="查看最新日记">
           <span class="kicker">最新日记</span>
-          <h3 class="latest-title">豌豆、胡豆、土豆和波比 · 2026.05.23 日记</h3>
-          <p class="latest-summary">成都今天基本晴，当前 26°C，预计 22°C 到 32°C。家里的三猫一狗今日日记已经建档，等待白天巡视逐步补完。</p>
-          <span class="pill-link latest-link">打开 2026.05.23</span>
+          <h3 class="latest-title">豌豆、胡豆、土豆和波比 · 2026.06.03 日记</h3>
+          <p class="latest-summary">成都今天阴天，当前 28°C，预计 22°C 到 33°C。家里的三猫一狗今日日记已经建档，等待白天巡视逐步补完。 今天已经写入 1/24 个小时槽位，最近一次更新在 21:00。</p>
+          <span class="pill-link latest-link">打开 2026.06.03</span>
         </a>
       </section>
 
@@ -134,6 +134,13 @@
         <h2 class="section-title">最近三天的日记</h2>
         <div class="archive-grid">
           
+            <a class="archive-card" href="days/2026-06-03/index.html">
+              <span class="archive-date">2026.06.03</span>
+              <h3 class="archive-title">2026.06.03 日记</h3>
+              <div class="archive-meta"></div>
+              <p class="archive-summary">成都今天阴天，当前 28°C，预计 22°C 到 33°C。家里的三猫一狗今日日记已经建档，等待白天巡视逐步补完。 今天已经写入 1/24 个小时槽位，最近一次更新在 21:00。</p>
+            </a>
+            
             <a class="archive-card" href="days/2026-05-23/index.html">
               <span class="archive-date">2026.05.23</span>
               <h3 class="archive-title">2026.05.23 日记</h3>
@@ -146,7 +153,7 @@
     </div>
     <script>
       (function () {
-        const days = {"2026-05-23": "days/2026-05-23/index.html"};
+        const days = {"2026-06-03": "days/2026-06-03/index.html", "2026-05-23": "days/2026-05-23/index.html"};
         const trigger = document.getElementById("calendar-trigger");
         const triggerText = document.getElementById("calendar-trigger-text");
         const popover = document.getElementById("calendar-popover");
@@ -163,7 +170,7 @@
           return;
         }
 
-        const selectedDate = "2026-05-23";
+        const selectedDate = "2026-06-03";
         let cursor = new Date(selectedDate + "T00:00:00");
 
         function formatMonthLabel(date) {
