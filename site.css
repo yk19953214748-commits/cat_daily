@@ -22,12 +22,14 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   margin: 0;
   font-family: "Be Vietnam Pro", "Noto Sans SC", sans-serif;
   color: var(--ink);
+  overflow-x: hidden;
   background:
     radial-gradient(circle at 15% 20%, rgba(164, 0, 164, 0.08), transparent 0 18rem),
     radial-gradient(circle at 85% 10%, rgba(60, 96, 116, 0.12), transparent 0 20rem),
@@ -104,6 +106,7 @@ img {
   font-weight: 900;
   line-height: 1;
   color: var(--secondary);
+  overflow-wrap: anywhere;
 }
 
 .brand-subtitle {
@@ -337,6 +340,7 @@ img {
 
 .hero-copy-block {
   padding: 30px;
+  min-width: 0;
   border: 4px solid var(--border);
   border-radius: var(--radius-lg);
   background:
@@ -352,6 +356,8 @@ img {
   line-height: 0.95;
   font-weight: 900;
   color: var(--secondary);
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .latest-card {
@@ -769,6 +775,213 @@ img {
   font-size: 1rem;
   line-height: 1.85;
   color: rgba(32, 34, 37, 0.82);
+}
+
+.section-heading-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+  align-items: start;
+  margin-bottom: 18px;
+}
+
+.section-side-note {
+  max-width: 360px;
+  margin: 0;
+  padding: 12px 14px;
+  border: 3px solid var(--border);
+  border-radius: 18px;
+  background: rgba(187, 223, 248, 0.62);
+  font-size: 0.9rem;
+  font-weight: 800;
+  line-height: 1.6;
+}
+
+.training-panel,
+.feature-panel {
+  margin-bottom: 24px;
+  padding: 24px;
+}
+
+.training-panel {
+  background:
+    linear-gradient(135deg, rgba(255, 215, 9, 0.2), rgba(255, 255, 255, 0.96) 42%, rgba(187, 223, 248, 0.36)),
+    var(--paper);
+}
+
+.training-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.training-metric-card {
+  min-width: 0;
+  padding: 16px;
+  border: 3px solid var(--border);
+  border-radius: 18px;
+  background: var(--paper);
+  box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.15);
+}
+
+.training-metric-card:nth-child(4n + 1) {
+  background: rgba(255, 215, 9, 0.64);
+}
+
+.training-metric-card:nth-child(4n + 2) {
+  background: rgba(255, 189, 243, 0.68);
+}
+
+.training-metric-card:nth-child(4n + 3) {
+  background: rgba(187, 223, 248, 0.78);
+}
+
+.training-metric-label {
+  margin: 0 0 8px;
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.training-metric-value {
+  margin: 0;
+  font-family: "Plus Jakarta Sans", "Noto Sans SC", sans-serif;
+  font-size: clamp(1.2rem, 2vw, 2rem);
+  line-height: 1.15;
+  font-weight: 900;
+  overflow-wrap: anywhere;
+}
+
+.training-metric-detail {
+  margin: 8px 0 0;
+  font-size: 0.86rem;
+  line-height: 1.55;
+  color: rgba(32, 34, 37, 0.72);
+}
+
+.training-body-grid {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.85fr) minmax(0, 1.5fr);
+  gap: 18px;
+}
+
+.training-pets,
+.workflow-card,
+.feature-card {
+  border: 3px solid var(--border);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.82);
+}
+
+.training-pets {
+  padding: 18px;
+}
+
+.subsection-title {
+  margin: 0 0 12px;
+  font-family: "Plus Jakarta Sans", "Noto Sans SC", sans-serif;
+  font-size: 1.15rem;
+  font-weight: 900;
+}
+
+.training-pet-list {
+  display: grid;
+  gap: 10px;
+}
+
+.training-pet-row {
+  display: grid;
+  grid-template-columns: 72px 1fr auto;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 12px;
+  border: 2px solid var(--border);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.78);
+  font-size: 0.88rem;
+  font-weight: 800;
+}
+
+.training-pet-name {
+  font-family: "Plus Jakarta Sans", "Noto Sans SC", sans-serif;
+  font-weight: 900;
+  color: var(--secondary);
+}
+
+.training-workflow {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.workflow-card {
+  position: relative;
+  min-height: 154px;
+  padding: 18px 18px 18px 76px;
+  overflow: hidden;
+}
+
+.workflow-number {
+  position: absolute;
+  left: 16px;
+  top: 18px;
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border: 3px solid var(--border);
+  border-radius: 999px;
+  background: var(--tertiary);
+  font-family: "Plus Jakarta Sans", "Noto Sans SC", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.workflow-card h3,
+.feature-card h3 {
+  margin: 0 0 8px;
+  font-family: "Plus Jakarta Sans", "Noto Sans SC", sans-serif;
+  font-size: 1.08rem;
+  font-weight: 900;
+}
+
+.workflow-card p,
+.feature-card p {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.65;
+  color: rgba(32, 34, 37, 0.76);
+}
+
+.feature-panel {
+  background:
+    linear-gradient(135deg, rgba(187, 223, 248, 0.42), rgba(255, 255, 255, 0.98) 45%, rgba(255, 189, 243, 0.28)),
+    var(--paper);
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.feature-card {
+  padding: 18px;
+  box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.12);
+}
+
+.feature-card:nth-child(3n + 1) {
+  background: rgba(187, 223, 248, 0.7);
+}
+
+.feature-card:nth-child(3n + 2) {
+  background: rgba(255, 215, 9, 0.5);
+}
+
+.feature-card:nth-child(3n + 3) {
+  background: rgba(255, 189, 243, 0.58);
 }
 
 .featured-panel {
@@ -1270,8 +1483,14 @@ body.lightbox-open {
   .home-hero,
   .hero-grid,
   .story-panel,
-  .summary-panel {
+  .summary-panel,
+  .training-body-grid {
     grid-template-columns: 1fr;
+  }
+
+  .training-metrics,
+  .feature-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .pet-roster {
@@ -1312,7 +1531,27 @@ body.lightbox-open {
   }
 
   .topbar-actions {
+    width: 100%;
+    flex-direction: column;
     justify-content: flex-start;
+  }
+
+  .topbar-actions .button,
+  .topbar-actions .date-picker-shell {
+    width: 100%;
+    flex: 1 1 auto;
+    padding-inline: 12px;
+  }
+
+  .home-headline {
+    font-size: 1.95rem;
+    line-height: 1.08;
+    word-break: break-all;
+  }
+
+  .brand-title {
+    font-size: 1.65rem;
+    line-height: 1.08;
   }
 
   .calendar-popover {
@@ -1324,7 +1563,22 @@ body.lightbox-open {
   .stat-grid,
   .archive-grid,
   .pet-roster,
-  .phase-grid {
+  .phase-grid,
+  .training-metrics,
+  .training-workflow,
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section-heading-row {
+    flex-direction: column;
+  }
+
+  .section-side-note {
+    max-width: none;
+  }
+
+  .training-pet-row {
     grid-template-columns: 1fr;
   }
 
@@ -1349,6 +1603,8 @@ body.lightbox-open {
   .featured-panel,
   .schedule-panel,
   .archive-panel,
+  .training-panel,
+  .feature-panel,
   .hero-copy-block,
   .latest-card,
   .story-panel,

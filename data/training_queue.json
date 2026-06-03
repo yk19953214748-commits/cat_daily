@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-03T22:42:08+08:00",
+  "privacy_note": "公开站点只展示训练统计和流程，不发布家庭监控原图。",
+  "queue": {
+    "needs_review": 139,
+    "identity_ready": 117,
+    "hard_negative": 0,
+    "ready_for_training": 117
+  },
+  "pets": [
+    {
+      "name": "豌豆",
+      "source_count": 27,
+      "crop_count": 27,
+      "status": "已入库"
+    },
+    {
+      "name": "胡豆",
+      "source_count": 27,
+      "crop_count": 27,
+      "status": "已入库"
+    },
+    {
+      "name": "土豆",
+      "source_count": 42,
+      "crop_count": 42,
+      "status": "已入库"
+    },
+    {
+      "name": "波比",
+      "source_count": 21,
+      "crop_count": 21,
+      "status": "已入库"
+    }
+  ],
+  "captures": {
+    "total": 139,
+    "by_camera": {
+      "bathroom": 14,
+      "living_room": 125
+    },
+    "by_event": {
+      "food": 68,
+      "litter": 61,
+      "water": 6,
+      "area_1779542930638": 4
+    },
+    "by_day": {
+      "2026-06-03": 90,
+      "2026-05-25": 1,
+      "2026-05-24": 4,
+      "2026-05-23": 44
+    },
+    "latest_local_capture_at": "2026-06-03T22:39:06"
+  },
+  "rois": [
+    {
+      "camera": "bathroom",
+      "event_id": "food",
+      "label": "吃饭",
+      "roi_count": 1,
+      "min_confidence": 0.25,
+      "min_duration_seconds": 4
+    },
+    {
+      "camera": "bathroom",
+      "event_id": "water",
+      "label": "喝水",
+      "roi_count": 0,
+      "min_confidence": 0.25,
+      "min_duration_seconds": 3
+    },
+    {
+      "camera": "bathroom",
+      "event_id": "litter",
+      "label": "上厕所",
+      "roi_count": 1,
+      "min_confidence": 0.25,
+      "min_duration_seconds": 10
+    },
+    {
+      "camera": "living_room",
+      "event_id": "food",
+      "label": "沙发上休息",
+      "roi_count": 2,
+      "min_confidence": 0.25,
+      "min_duration_seconds": 4
+    },
+    {
+      "camera": "living_room",
+      "event_id": "water",
+      "label": "猫窝休息",
+      "roi_count": 1,
+      "min_confidence": 0.25,
+      "min_duration_seconds": 3
+    },
+    {
+      "camera": "living_room",
+      "event_id": "litter",
+      "label": "上茶几找吃的",
+      "roi_count": 1,
+      "min_confidence": 0.25,
+      "min_duration_seconds": 10
+    },
+    {
+      "camera": "living_room",
+      "event_id": "area_1779542695063",
+      "label": "房间床上躺起",
+      "roi_count": 1,
+      "min_confidence": 0.25,
+      "min_duration_seconds": 3
+    },
+    {
+      "camera": "living_room",
+      "event_id": "area_1779542856068",
+      "label": "门口躺着",
+      "roi_count": 1,
+      "min_confidence": 0.25,
+      "min_duration_seconds": 3
+    },
+    {
+      "camera": "living_room",
+      "event_id": "area_1779542894666",
+      "label": "鞋柜上躺着",
+      "roi_count": 1,
+      "min_confidence": 0.25,
+      "min_duration_seconds": 3
+    },
+    {
+      "camera": "living_room",
+      "event_id": "area_1779542930638",
+      "label": "进厨房吃饭",
+      "roi_count": 1,
+      "min_confidence": 0.25,
+      "min_duration_seconds": 3
+    }
+  ],
+  "workflow": [
+    {
+      "step": "自动收集",
+      "detail": "从 ROI 事件截图、漏检截图和定时抓拍中沉淀候选样本。"
+    },
+    {
+      "step": "人工确认",
+      "detail": "本机标注页面确认豌豆、胡豆、土豆、波比或不确定。"
+    },
+    {
+      "step": "训练队列",
+      "detail": "只把确认过的裁剪图加入身份模型训练，保留旧模型可回滚。"
+    },
+    {
+      "step": "上线验证",
+      "detail": "新模型先跑本地监控和历史截图回放，再替换生产配置。"
+    }
+  ],
+  "next_actions": [
+    "把不确定样本做成人工确认页面",
+    "记录漏检样本并加入 hard negative 集合",
+    "按周重训身份模型，按月评估是否微调 YOLO"
+  ]
+}

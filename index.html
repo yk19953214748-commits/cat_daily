@@ -19,6 +19,7 @@
         </div>
         <div class="topbar-actions">
           <a class="button button-primary" href="days/2026-06-03/index.html">查看最新日记</a>
+          <a class="button button-secondary" href="#training">训练工作台</a>
           <div class="calendar-picker">
             <button id="calendar-trigger" class="date-picker-shell" type="button" aria-expanded="false" aria-controls="calendar-popover">
               <span class="date-picker-label">选择日期</span>
@@ -72,7 +73,7 @@
         <a class="latest-card panel panel-pop" href="days/2026-06-03/index.html" aria-label="查看最新日记">
           <span class="kicker">最新日记</span>
           <h3 class="latest-title">豌豆、胡豆、土豆和波比 · 2026.06.03 日记</h3>
-          <p class="latest-summary">成都今天阴天，当前 28°C，预计 22°C 到 33°C。家里的三猫一狗今日日记已经建档，等待白天巡视逐步补完。 今天已经写入 1/24 个小时槽位，最近一次更新在 21:00。</p>
+          <p class="latest-summary">成都今天阴天，当前 28°C，预计 22°C 到 33°C。家里的三猫一狗今日日记已经建档，等待白天巡视逐步补完。 今天已经写入 2/24 个小时槽位，最近一次更新在 22:00。</p>
           <span class="pill-link latest-link">打开 2026.06.03</span>
         </a>
       </section>
@@ -129,6 +130,145 @@
         <p class="story-panel-text">豌豆是性格很好的天使狸花猫，进门会打招呼，一喊就来；胡豆是家里的猫老大，厌世脸，不爱被抱但喜欢贴贴，特别能吃也能拉；土豆是白灰相间的懒猫，肚肚粉粉嫩嫩但不喜欢被捏，会主动打招呼，也会手贱调戏胡豆；波比是12岁的泰迪小老太太，家里的狗警察，三只猫都不敢惹她。 豌豆背部是斑点图案，整体是狸花猫一样的深棕色；胡豆颜色是灰黑色，条纹相间。</p>
       </section>
 
+      <section id="training" class="panel training-panel">
+        <div class="section-heading-row">
+          <div>
+            <span class="kicker">Training Loop</span>
+            <h2 class="section-title">样本收集、人工确认、训练队列</h2>
+          </div>
+          <p class="section-side-note">公开站点只展示训练统计和流程，不发布家庭监控原图。</p>
+        </div>
+        <div class="training-metrics">
+          
+            <article class="training-metric-card">
+              <p class="training-metric-label">待确认样本</p>
+              <p class="training-metric-value">139</p>
+              <p class="training-metric-detail">来自本机 ROI 事件截图，公开站点只展示统计。</p>
+            </article>
+            
+            <article class="training-metric-card">
+              <p class="training-metric-label">身份参考图</p>
+              <p class="training-metric-value">117</p>
+              <p class="training-metric-detail">豌豆、胡豆、土豆、波比的已入库裁剪图。</p>
+            </article>
+            
+            <article class="training-metric-card">
+              <p class="training-metric-label">ROI 区域</p>
+              <p class="training-metric-value">10</p>
+              <p class="training-metric-detail">卫生间和客厅的行为区域配置。</p>
+            </article>
+            
+            <article class="training-metric-card">
+              <p class="training-metric-label">最新样本</p>
+              <p class="training-metric-value">2026-06-03T22:39:06</p>
+              <p class="training-metric-detail">最近一次本机事件截图时间。</p>
+            </article>
+            
+        </div>
+        <div class="training-body-grid">
+          <div class="training-pets">
+            <h3 class="subsection-title">四个身份样本池</h3>
+            <div class="training-pet-list">
+              
+            <div class="training-pet-row">
+              <span class="training-pet-name">豌豆</span>
+              <span>27 张可训练裁剪图</span>
+              <span>已入库</span>
+            </div>
+            
+            <div class="training-pet-row">
+              <span class="training-pet-name">胡豆</span>
+              <span>27 张可训练裁剪图</span>
+              <span>已入库</span>
+            </div>
+            
+            <div class="training-pet-row">
+              <span class="training-pet-name">土豆</span>
+              <span>42 张可训练裁剪图</span>
+              <span>已入库</span>
+            </div>
+            
+            <div class="training-pet-row">
+              <span class="training-pet-name">波比</span>
+              <span>21 张可训练裁剪图</span>
+              <span>已入库</span>
+            </div>
+            
+            </div>
+          </div>
+          <div class="training-workflow">
+            
+            <article class="workflow-card">
+              <span class="workflow-number">1</span>
+              <h3>自动收集</h3>
+              <p>从 ROI 事件截图、漏检截图和定时抓拍中沉淀候选样本。</p>
+            </article>
+            
+            <article class="workflow-card">
+              <span class="workflow-number">2</span>
+              <h3>人工确认</h3>
+              <p>本机标注页面确认豌豆、胡豆、土豆、波比或不确定。</p>
+            </article>
+            
+            <article class="workflow-card">
+              <span class="workflow-number">3</span>
+              <h3>训练队列</h3>
+              <p>只把确认过的裁剪图加入身份模型训练，保留旧模型可回滚。</p>
+            </article>
+            
+            <article class="workflow-card">
+              <span class="workflow-number">4</span>
+              <h3>上线验证</h3>
+              <p>新模型先跑本地监控和历史截图回放，再替换生产配置。</p>
+            </article>
+            
+          </div>
+        </div>
+      </section>
+
+      <section id="project" class="panel feature-panel">
+        <div class="section-heading-row">
+          <div>
+            <span class="kicker">System</span>
+            <h2 class="section-title">这个网站背后的自动化</h2>
+          </div>
+          <p class="section-side-note">本机负责看家和训练，公开站点负责展示日记、宠物档案和项目进度。</p>
+        </div>
+        <div class="feature-grid">
+          
+            <article class="feature-card">
+              <h3>实时监控</h3>
+              <p>RTSP + OpenCV 持续读取双摄像头画面，本机 WebUI 查看检测框、事件状态和日志。</p>
+            </article>
+            
+            <article class="feature-card">
+              <h3>ROI 行为识别</h3>
+              <p>卫生间、猫窝、沙发、茶几等区域可视化圈选，用连续命中降低误判。</p>
+            </article>
+            
+            <article class="feature-card">
+              <h3>身份识别</h3>
+              <p>YOLO 找位置，参考图模型判断豌豆、胡豆、土豆、波比，低置信样本进入人工确认。</p>
+            </article>
+            
+            <article class="feature-card">
+              <h3>自动日记</h3>
+              <p>按小时整理行为记录，夜间可跳过，生成每日封面和静态日记站。</p>
+            </article>
+            
+            <article class="feature-card">
+              <h3>训练闭环</h3>
+              <p>监控截图沉淀为样本，人工确认后进入训练队列，模型按版本更新和回滚。</p>
+            </article>
+            
+            <article class="feature-card">
+              <h3>GitHub Pages</h3>
+              <p>公开站点展示日报、宠物档案、项目能力和训练状态，不泄露本机监控原图。</p>
+            </article>
+            
+        </div>
+      </section>
+
       <section id="archives" class="panel archive-panel">
         <span class="kicker">近三天</span>
         <h2 class="section-title">最近三天的日记</h2>
@@ -137,8 +277,8 @@
             <a class="archive-card" href="days/2026-06-03/index.html">
               <span class="archive-date">2026.06.03</span>
               <h3 class="archive-title">2026.06.03 日记</h3>
-              <div class="archive-meta"></div>
-              <p class="archive-summary">成都今天阴天，当前 28°C，预计 22°C 到 33°C。家里的三猫一狗今日日记已经建档，等待白天巡视逐步补完。 今天已经写入 1/24 个小时槽位，最近一次更新在 21:00。</p>
+              <div class="archive-meta"><span class="archive-meta-chip">吃饭 1 次</span><span class="archive-meta-chip">喝水 0 次</span><span class="archive-meta-chip">上厕所 0 次</span></div>
+              <p class="archive-summary">成都今天阴天，当前 28°C，预计 22°C 到 33°C。家里的三猫一狗今日日记已经建档，等待白天巡视逐步补完。 今天已经写入 2/24 个小时槽位，最近一次更新在 22:00。</p>
             </a>
             
             <a class="archive-card" href="days/2026-05-23/index.html">
