@@ -38,19 +38,19 @@
       "slots": [
         {
           "time": "21:00",
-          "status": "not_found",
-          "camera": "",
-          "camera_label": "",
-          "title": "躲猫猫中",
-          "description": "这一小时三猫一狗都很低调，监控里翻了 2 个摄像头也没明确拍到。可能各自窝在秘密基地里，悄悄享受清静时间~",
-          "badge": "躲猫猫",
-          "image": "services/catdaily-journal/assets/styled/2026-06-03/21/seedream_1780494929_0.jpeg",
-          "raw_image": "",
-          "styled_image": "services/catdaily-journal/assets/styled/2026-06-03/21/seedream_1780494929_0.jpeg",
-          "location": "",
-          "activity": "躲猫猫",
-          "surroundings": "",
-          "prompt": "1:1正方形构图。波普风Q版手绘插画。主角是家里的三只猫和一只狗：狸花猫、虎斑猫、白灰相间的猫、泰迪犬。主题是躲猫猫和巡逻，宠物们藏在窗帘后、沙发下或纸箱旁。画面保留日期2026-06-03与时间21:00。背景画出成都家中场景：家具、地毯、宠物玩具散落。整体可爱、明亮、手绘感、印刷颗粒感。必须是正方形。",
+          "status": "review_needed",
+          "camera": "living-room",
+          "camera_label": "客厅",
+          "title": "监控已抓拍，待确认",
+          "description": "这一小时有 2 个摄像头成功抓拍，但本地 YOLO / 视觉分析没有给出足够稳定的宠物确认结果。先保留原始画面，后续进入人工确认和训练样本队列。",
+          "badge": "待确认",
+          "image": "",
+          "raw_image": "services/catdaily-journal/assets/raw/2026-06-03/21/scout/living-room.jpg",
+          "styled_image": "",
+          "location": "客厅",
+          "activity": "待人工确认",
+          "surroundings": "监控抓拍已保存，模型低置信或未确认。",
+          "prompt": "",
           "captures": [
             {
               "camera": "bathroom",
@@ -99,23 +99,31 @@
               }
             }
           ],
-          "updated_at": "2026-06-03T21:55:33.298604+08:00"
+          "updated_at": "2026-06-03T22:55:42.030743+08:00",
+          "analysis": {
+            "found": false,
+            "location": "",
+            "activity": "",
+            "surroundings": "",
+            "provider": "local-yolo-identity",
+            "detections": []
+          }
         },
         {
           "time": "22:00",
-          "status": "not_found",
-          "camera": "",
-          "camera_label": "",
-          "title": "躲猫猫中",
-          "description": "这一小时三猫一狗都很低调，监控里翻了2 个摄像头也没明确拍到。可能各自窝在秘密基地里，悄悄享受清静时间~",
-          "badge": "躲猫猫",
-          "image": "services/catdaily-journal/assets/styled/2026-06-03/22/seedream_1780496143_0.jpeg",
-          "raw_image": "",
-          "styled_image": "services/catdaily-journal/assets/styled/2026-06-03/22/seedream_1780496143_0.jpeg",
-          "location": "",
-          "activity": "躲猫猫",
-          "surroundings": "",
-          "prompt": "1:1正方形构图。波普风Q版手绘插画。主角是家里的三只猫和一只狗：狸花猫、虎斑猫、白灰相间的猫、泰迪犬。主题是躲猫猫和巡逻，宠物们藏在窗帘后、沙发下或纸箱旁。画面保留日期2026-06-03与时间22:00。背景画出成都家中场景：家具、地毯、宠物玩具散落。整体可爱、明亮、手绘感、印刷颗粒感。必须是正方形。",
+          "status": "review_needed",
+          "camera": "living-room",
+          "camera_label": "客厅",
+          "title": "监控已抓拍，待确认",
+          "description": "这一小时有 2 个摄像头成功抓拍，但本地 YOLO / 视觉分析没有给出足够稳定的宠物确认结果。先保留原始画面，后续进入人工确认和训练样本队列。",
+          "badge": "待确认",
+          "image": "",
+          "raw_image": "services/catdaily-journal/assets/raw/2026-06-03/22/scout/living-room.jpg",
+          "styled_image": "",
+          "location": "客厅",
+          "activity": "待人工确认",
+          "surroundings": "监控抓拍已保存，模型低置信或未确认。",
+          "prompt": "",
           "captures": [
             {
               "camera": "bathroom",
@@ -164,7 +172,15 @@
               }
             }
           ],
-          "updated_at": "2026-06-03T22:15:49.514999+08:00"
+          "updated_at": "2026-06-03T22:55:42.030766+08:00",
+          "analysis": {
+            "found": false,
+            "location": "",
+            "activity": "",
+            "surroundings": "",
+            "provider": "local-yolo-identity",
+            "detections": []
+          }
         }
       ]
     }
@@ -183,5 +199,5 @@
     "temp_max": "33",
     "observed_at": "2026-06-03T21:45"
   },
-  "updated_at": "2026-06-03T22:15:49.515109+08:00"
+  "updated_at": "2026-06-03T22:55:42.030771+08:00"
 }
