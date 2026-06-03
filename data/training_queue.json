@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-06-03T22:55:42+08:00",
+  "generated_at": "2026-06-03T23:19:14+08:00",
   "privacy_note": "公开站点只展示训练统计和流程，不发布家庭监控原图。",
   "queue": {
-    "needs_review": 141,
+    "needs_review": 150,
     "identity_ready": 117,
     "hard_negative": 0,
     "ready_for_training": 117
@@ -35,24 +35,24 @@
     }
   ],
   "captures": {
-    "total": 141,
+    "total": 150,
     "by_camera": {
       "bathroom": 14,
-      "living_room": 127
+      "living_room": 136
     },
     "by_event": {
-      "food": 69,
-      "litter": 62,
-      "water": 6,
-      "area_1779542930638": 4
+      "food": 70,
+      "litter": 68,
+      "area_1779542930638": 6,
+      "water": 6
     },
     "by_day": {
-      "2026-06-03": 92,
+      "2026-06-03": 101,
       "2026-05-25": 1,
       "2026-05-24": 4,
       "2026-05-23": 44
     },
-    "latest_local_capture_at": "2026-06-03T22:49:47"
+    "latest_local_capture_at": "2026-06-03T23:14:48"
   },
   "rois": [
     {

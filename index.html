@@ -4,6 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>三猫一狗的每日小剧场</title>
+    <script>
+      (function () {
+        if (document.title.indexOf("{{") === -1) {
+          return;
+        }
+        var builtSite = new URL("../../../../services/catdaily-journal/public/index.html", window.location.href);
+        window.location.replace(builtSite.href);
+      })();
+    </script>
     <link rel="stylesheet" href="./site.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,6 +29,7 @@
         <div class="topbar-actions">
           <a class="button button-primary" href="days/2026-06-03/index.html">查看最新日记</a>
           <a class="button button-secondary" href="#training">训练工作台</a>
+          <a class="button button-secondary" href="https://yk19953214748-commits.github.io/cat_daily/">Cat Daily 网站</a>
           <div class="calendar-picker">
             <button id="calendar-trigger" class="date-picker-shell" type="button" aria-expanded="false" aria-controls="calendar-popover">
               <span class="date-picker-label">选择日期</span>
@@ -73,7 +83,7 @@
         <a class="latest-card panel panel-pop" href="days/2026-06-03/index.html" aria-label="查看最新日记">
           <span class="kicker">最新日记</span>
           <h3 class="latest-title">豌豆、胡豆、土豆和波比 · 2026.06.03 日记</h3>
-          <p class="latest-summary">成都今天阴天，当前 28°C，预计 22°C 到 33°C。家里的三猫一狗今日日记已经建档，等待白天巡视逐步补完。 今天已经写入 2/24 个小时槽位，最近一次更新在 22:00。</p>
+          <p class="latest-summary">成都今天阴天，当前 28°C，预计 22°C 到 33°C。家里的三猫一狗今日日记已经建档，等待白天巡视逐步补完。 今天已经写入 3/24 个小时槽位，最近一次更新在 23:00。</p>
           <span class="pill-link latest-link">打开 2026.06.03</span>
         </a>
       </section>
@@ -142,7 +152,7 @@
           
             <article class="training-metric-card">
               <p class="training-metric-label">待确认样本</p>
-              <p class="training-metric-value">141</p>
+              <p class="training-metric-value">150</p>
               <p class="training-metric-detail">来自本机 ROI 事件截图，公开站点只展示统计。</p>
             </article>
             
@@ -160,7 +170,7 @@
             
             <article class="training-metric-card">
               <p class="training-metric-label">最新样本</p>
-              <p class="training-metric-value">2026-06-03T22:49:47</p>
+              <p class="training-metric-value">2026-06-03T23:14:48</p>
               <p class="training-metric-detail">最近一次本机事件截图时间。</p>
             </article>
             
@@ -194,6 +204,10 @@
               <span>已入库</span>
             </div>
             
+            </div>
+            <div class="training-actions">
+              <a class="button button-primary" href="https://yk19953214748-commits.github.io/cat_daily/">打开 Cat Daily 网站</a>
+              <a class="button button-secondary" href="data/training_queue.json">查看训练数据</a>
             </div>
           </div>
           <div class="training-workflow">
@@ -278,7 +292,7 @@
               <span class="archive-date">2026.06.03</span>
               <h3 class="archive-title">2026.06.03 日记</h3>
               <div class="archive-meta"><span class="archive-meta-chip">吃饭 1 次</span><span class="archive-meta-chip">喝水 0 次</span><span class="archive-meta-chip">上厕所 0 次</span></div>
-              <p class="archive-summary">成都今天阴天，当前 28°C，预计 22°C 到 33°C。家里的三猫一狗今日日记已经建档，等待白天巡视逐步补完。 今天已经写入 2/24 个小时槽位，最近一次更新在 22:00。</p>
+              <p class="archive-summary">成都今天阴天，当前 28°C，预计 22°C 到 33°C。家里的三猫一狗今日日记已经建档，等待白天巡视逐步补完。 今天已经写入 3/24 个小时槽位，最近一次更新在 23:00。</p>
             </a>
             
             <a class="archive-card" href="days/2026-05-23/index.html">

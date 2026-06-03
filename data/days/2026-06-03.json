@@ -1,7 +1,7 @@
 {
   "date": "2026-06-03",
   "title": "豌豆、胡豆、土豆和波比 · 2026.06.03 日记",
-  "summary": "成都今天阴天，当前 28°C，预计 22°C 到 33°C。家里的三猫一狗今日日记已经建档，等待白天巡视逐步补完。 今天已经写入 2/24 个小时槽位，最近一次更新在 22:00。",
+  "summary": "成都今天阴天，当前 28°C，预计 22°C 到 33°C。家里的三猫一狗今日日记已经建档，等待白天巡视逐步补完。 今天已经写入 3/24 个小时槽位，最近一次更新在 23:00。",
   "cover_summary": "成都今天阴天，当前 28°C，预计 22°C 到 33°C。家里的三猫一狗今日日记已经建档，等待白天巡视逐步补完。",
   "cover_image": "services/catdaily-journal/assets/styled/2026-06-03/cover/seedream_1780494850_0.jpeg",
   "stats": [
@@ -181,6 +181,72 @@
             "provider": "local-yolo-identity",
             "detections": []
           }
+        },
+        {
+          "time": "23:00",
+          "status": "review_needed",
+          "camera": "living-room",
+          "camera_label": "客厅",
+          "title": "监控已抓拍，待确认",
+          "description": "这一小时有 2 个摄像头成功抓拍，但本地 YOLO / 视觉分析没有给出足够稳定的宠物确认结果。先保留原始画面，后续进入人工确认和训练样本队列。",
+          "badge": "待确认",
+          "image": "",
+          "raw_image": "services/catdaily-journal/assets/raw/2026-06-03/23/scout/living-room.jpg",
+          "styled_image": "",
+          "location": "客厅",
+          "activity": "待人工确认",
+          "surroundings": "监控抓拍已保存，模型低置信或未确认。",
+          "prompt": "",
+          "analysis": {},
+          "captures": [
+            {
+              "camera": "bathroom",
+              "camera_label": "卫生间",
+              "image": "services/catdaily-journal/assets/raw/2026-06-03/23/scout/bathroom.jpg",
+              "success": true,
+              "local_analysis": {
+                "found": false,
+                "location": "",
+                "activity": "",
+                "surroundings": "",
+                "provider": "local-yolo-identity",
+                "detections": []
+              },
+              "analysis_error": "OpenClaw 返回中没有 payloads",
+              "analysis": {
+                "found": false,
+                "location": "",
+                "activity": "",
+                "surroundings": "",
+                "provider": "local-yolo-identity",
+                "detections": []
+              }
+            },
+            {
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "image": "services/catdaily-journal/assets/raw/2026-06-03/23/scout/living-room.jpg",
+              "success": true,
+              "local_analysis": {
+                "found": false,
+                "location": "",
+                "activity": "",
+                "surroundings": "",
+                "provider": "local-yolo-identity",
+                "detections": []
+              },
+              "analysis_error": "OpenClaw 返回中没有 payloads",
+              "analysis": {
+                "found": false,
+                "location": "",
+                "activity": "",
+                "surroundings": "",
+                "provider": "local-yolo-identity",
+                "detections": []
+              }
+            }
+          ],
+          "updated_at": "2026-06-03T23:15:42.810395+08:00"
         }
       ]
     }
@@ -199,5 +265,5 @@
     "temp_max": "33",
     "observed_at": "2026-06-03T21:45"
   },
-  "updated_at": "2026-06-03T22:55:42.030771+08:00"
+  "updated_at": "2026-06-03T23:15:42.810505+08:00"
 }
