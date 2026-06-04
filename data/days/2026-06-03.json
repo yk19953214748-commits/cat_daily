@@ -42,156 +42,10 @@
           "camera": "living-room",
           "camera_label": "客厅",
           "title": "监控已抓拍，待确认",
-          "description": "这一小时有 2 个摄像头成功抓拍，但本地 YOLO / 视觉分析没有给出足够稳定的宠物确认结果。先保留原始画面，后续进入人工确认和训练样本队列。",
+          "description": "这一小时有 16 张事件/巡检抓拍，但本地 YOLO / 视觉分析没有给出足够稳定的宠物确认结果。先保留原始画面，后续进入人工确认和训练样本队列。",
           "badge": "待确认",
           "image": "",
-          "raw_image": "services/catdaily-journal/assets/raw/2026-06-03/21/scout/living-room.jpg",
-          "styled_image": "",
-          "location": "客厅",
-          "activity": "待人工确认",
-          "surroundings": "监控抓拍已保存，模型低置信或未确认。",
-          "prompt": "",
-          "captures": [
-            {
-              "camera": "bathroom",
-              "camera_label": "卫生间",
-              "image": "services/catdaily-journal/assets/raw/2026-06-03/21/scout/bathroom.jpg",
-              "success": true,
-              "local_analysis": {
-                "found": false,
-                "location": "",
-                "activity": "",
-                "surroundings": "",
-                "provider": "local-yolo-identity",
-                "detections": []
-              },
-              "analysis_error": "OpenClaw does not recognize option \"--local\".\nTry: openclaw agent main --help",
-              "analysis": {
-                "found": false,
-                "location": "",
-                "activity": "",
-                "surroundings": "",
-                "provider": "local-yolo-identity",
-                "detections": []
-              }
-            },
-            {
-              "camera": "living-room",
-              "camera_label": "客厅",
-              "image": "services/catdaily-journal/assets/raw/2026-06-03/21/scout/living-room.jpg",
-              "success": true,
-              "local_analysis": {
-                "found": false,
-                "location": "",
-                "activity": "",
-                "surroundings": "",
-                "provider": "local-yolo-identity",
-                "detections": []
-              },
-              "analysis_error": "OpenClaw does not recognize option \"--local\".\nTry: openclaw agent main --help",
-              "analysis": {
-                "found": false,
-                "location": "",
-                "activity": "",
-                "surroundings": "",
-                "provider": "local-yolo-identity",
-                "detections": []
-              }
-            }
-          ],
-          "updated_at": "2026-06-03T22:55:42.030743+08:00",
-          "analysis": {
-            "found": false,
-            "location": "",
-            "activity": "",
-            "surroundings": "",
-            "provider": "local-yolo-identity",
-            "detections": []
-          }
-        },
-        {
-          "time": "22:00",
-          "status": "review_needed",
-          "camera": "living-room",
-          "camera_label": "客厅",
-          "title": "监控已抓拍，待确认",
-          "description": "这一小时有 2 个摄像头成功抓拍，但本地 YOLO / 视觉分析没有给出足够稳定的宠物确认结果。先保留原始画面，后续进入人工确认和训练样本队列。",
-          "badge": "待确认",
-          "image": "",
-          "raw_image": "services/catdaily-journal/assets/raw/2026-06-03/22/scout/living-room.jpg",
-          "styled_image": "",
-          "location": "客厅",
-          "activity": "待人工确认",
-          "surroundings": "监控抓拍已保存，模型低置信或未确认。",
-          "prompt": "",
-          "captures": [
-            {
-              "camera": "bathroom",
-              "camera_label": "卫生间",
-              "image": "services/catdaily-journal/assets/raw/2026-06-03/22/scout/bathroom.jpg",
-              "success": true,
-              "local_analysis": {
-                "found": false,
-                "location": "",
-                "activity": "",
-                "surroundings": "",
-                "provider": "local-yolo-identity",
-                "detections": []
-              },
-              "analysis_error": "OpenClaw does not recognize option \"--local\".\nTry: openclaw agent main --help",
-              "analysis": {
-                "found": false,
-                "location": "",
-                "activity": "",
-                "surroundings": "",
-                "provider": "local-yolo-identity",
-                "detections": []
-              }
-            },
-            {
-              "camera": "living-room",
-              "camera_label": "客厅",
-              "image": "services/catdaily-journal/assets/raw/2026-06-03/22/scout/living-room.jpg",
-              "success": true,
-              "local_analysis": {
-                "found": false,
-                "location": "",
-                "activity": "",
-                "surroundings": "",
-                "provider": "local-yolo-identity",
-                "detections": []
-              },
-              "analysis_error": "OpenClaw does not recognize option \"--local\".\nTry: openclaw agent main --help",
-              "analysis": {
-                "found": false,
-                "location": "",
-                "activity": "",
-                "surroundings": "",
-                "provider": "local-yolo-identity",
-                "detections": []
-              }
-            }
-          ],
-          "updated_at": "2026-06-03T22:55:42.030766+08:00",
-          "analysis": {
-            "found": false,
-            "location": "",
-            "activity": "",
-            "surroundings": "",
-            "provider": "local-yolo-identity",
-            "detections": []
-          }
-        },
-        {
-          "time": "23:00",
-          "status": "review_needed",
-          "camera": "living-room",
-          "camera_label": "客厅",
-          "title": "监控已抓拍，待确认",
-          "description": "这一小时有 2 个摄像头成功抓拍，但本地 YOLO / 视觉分析没有给出足够稳定的宠物确认结果。先保留原始画面，后续进入人工确认和训练样本队列。",
-          "badge": "待确认",
-          "image": "",
-          "raw_image": "services/catdaily-journal/assets/raw/2026-06-03/23/scout/living-room.jpg",
+          "raw_image": "services/catdaily/captures-living-room/events/2026-06-03/litter/20260603T215046_626840.jpg",
           "styled_image": "",
           "location": "客厅",
           "activity": "待人工确认",
@@ -200,53 +54,2205 @@
           "analysis": {},
           "captures": [
             {
-              "camera": "bathroom",
-              "camera_label": "卫生间",
-              "image": "services/catdaily-journal/assets/raw/2026-06-03/23/scout/bathroom.jpg",
-              "success": true,
-              "local_analysis": {
-                "found": false,
-                "location": "",
-                "activity": "",
-                "surroundings": "",
-                "provider": "local-yolo-identity",
-                "detections": []
-              },
-              "analysis_error": "OpenClaw 返回中没有 payloads",
-              "analysis": {
-                "found": false,
-                "location": "",
-                "activity": "",
-                "surroundings": "",
-                "provider": "local-yolo-identity",
-                "detections": []
-              }
-            },
-            {
+              "source": "event_capture",
               "camera": "living-room",
               "camera_label": "客厅",
-              "image": "services/catdaily-journal/assets/raw/2026-06-03/23/scout/living-room.jpg",
+              "event_name": "litter",
+              "event_label": "litter / area_1779542930638",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/litter/20260603T215046_626840.jpg",
               "success": true,
-              "local_analysis": {
-                "found": false,
-                "location": "",
-                "activity": "",
-                "surroundings": "",
-                "provider": "local-yolo-identity",
-                "detections": []
-              },
-              "analysis_error": "OpenClaw 返回中没有 payloads",
-              "analysis": {
-                "found": false,
-                "location": "",
-                "activity": "",
-                "surroundings": "",
-                "provider": "local-yolo-identity",
-                "detections": []
-              }
+              "captured_at": "2026-06-03T21:50:46.626840",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.439,
+                  "pet_id": "hudou",
+                  "pet_name": "胡豆",
+                  "identity_score": 0.723,
+                  "identity_margin": 0.019,
+                  "identity_confirmed": false,
+                  "x1": 617,
+                  "y1": 288,
+                  "x2": 718,
+                  "y2": 557,
+                  "track_id": 100,
+                  "head_point": [
+                    672,
+                    555
+                  ],
+                  "tail_point": [
+                    699,
+                    288
+                  ],
+                  "head_confidence": 0.414
+                },
+                {
+                  "label": "dog",
+                  "confidence": 0.397,
+                  "pet_id": "bobi",
+                  "pet_name": "波比",
+                  "identity_score": 0.735,
+                  "identity_margin": 0.735,
+                  "identity_confirmed": true,
+                  "x1": 614,
+                  "y1": 288,
+                  "x2": 719,
+                  "y2": 566,
+                  "track_id": 101,
+                  "head_point": [
+                    672,
+                    562
+                  ],
+                  "tail_point": [
+                    697,
+                    288
+                  ],
+                  "head_confidence": 0.166
+                },
+                {
+                  "label": "dog",
+                  "confidence": 0.331,
+                  "pet_id": "bobi",
+                  "pet_name": "波比",
+                  "identity_score": 0.723,
+                  "identity_margin": 0.723,
+                  "identity_confirmed": true,
+                  "x1": 962,
+                  "y1": 465,
+                  "x2": 1065,
+                  "y2": 595,
+                  "track_id": 99,
+                  "head_point": [
+                    1056,
+                    465
+                  ],
+                  "tail_point": [
+                    962,
+                    593
+                  ],
+                  "head_confidence": 0.023
+                },
+                {
+                  "label": "cat",
+                  "confidence": 0.311,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.703,
+                  "identity_margin": 0.057,
+                  "identity_confirmed": true,
+                  "x1": 961,
+                  "y1": 465,
+                  "x2": 1065,
+                  "y2": 595,
+                  "track_id": 102,
+                  "head_point": [
+                    1057,
+                    465
+                  ],
+                  "tail_point": [
+                    961,
+                    592
+                  ],
+                  "head_confidence": 0.027
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "food",
+              "event_label": "food",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/food/20260603T214434_335551.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T21:44:34.335551",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.805,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.684,
+                  "identity_margin": 0.057,
+                  "identity_confirmed": false,
+                  "x1": 970,
+                  "y1": 465,
+                  "x2": 1068,
+                  "y2": 594,
+                  "track_id": 52,
+                  "head_point": [
+                    1056,
+                    465
+                  ],
+                  "tail_point": [
+                    970,
+                    592
+                  ],
+                  "head_confidence": 0.035
+                },
+                {
+                  "label": "dog",
+                  "confidence": 0.484,
+                  "pet_id": "bobi",
+                  "pet_name": "波比",
+                  "identity_score": 0.734,
+                  "identity_margin": 0.734,
+                  "identity_confirmed": true,
+                  "x1": 673,
+                  "y1": 355,
+                  "x2": 791,
+                  "y2": 492,
+                  "track_id": 56,
+                  "head_point": [
+                    707,
+                    492
+                  ],
+                  "tail_point": [
+                    760,
+                    355
+                  ],
+                  "head_confidence": 0.084
+                },
+                {
+                  "label": "cat",
+                  "confidence": 0.368,
+                  "pet_id": "hudou",
+                  "pet_name": "胡豆",
+                  "identity_score": 0.808,
+                  "identity_margin": 0.025,
+                  "identity_confirmed": false,
+                  "x1": 673,
+                  "y1": 355,
+                  "x2": 791,
+                  "y2": 492,
+                  "track_id": 51,
+                  "head_point": [
+                    707,
+                    492
+                  ],
+                  "tail_point": [
+                    760,
+                    355
+                  ],
+                  "head_confidence": 0.084
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "food",
+              "event_label": "food",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/food/20260603T214404_030266.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T21:44:04.030266",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.823,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.666,
+                  "identity_margin": 0.048,
+                  "identity_confirmed": false,
+                  "x1": 970,
+                  "y1": 467,
+                  "x2": 1060,
+                  "y2": 592,
+                  "track_id": 46,
+                  "head_point": [
+                    1048,
+                    467
+                  ],
+                  "tail_point": [
+                    970,
+                    590
+                  ],
+                  "head_confidence": 0.058
+                },
+                {
+                  "label": "dog",
+                  "confidence": 0.316,
+                  "pet_id": "bobi",
+                  "pet_name": "波比",
+                  "identity_score": 0.753,
+                  "identity_margin": 0.753,
+                  "identity_confirmed": true,
+                  "x1": 668,
+                  "y1": 379,
+                  "x2": 782,
+                  "y2": 494,
+                  "track_id": 49,
+                  "head_point": [
+                    675,
+                    488
+                  ],
+                  "tail_point": [
+                    782,
+                    403
+                  ],
+                  "head_confidence": 0.086
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "food",
+              "event_label": "food",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/food/20260603T214303_678658.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T21:43:03.678658",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.75,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.678,
+                  "identity_margin": 0.052,
+                  "identity_confirmed": false,
+                  "x1": 970,
+                  "y1": 466,
+                  "x2": 1064,
+                  "y2": 592,
+                  "track_id": 46,
+                  "head_point": [
+                    1053,
+                    466
+                  ],
+                  "tail_point": [
+                    970,
+                    589
+                  ],
+                  "head_confidence": 0.046
+                },
+                {
+                  "label": "cat",
+                  "confidence": 0.264,
+                  "pet_id": "hudou",
+                  "pet_name": "胡豆",
+                  "identity_score": 0.783,
+                  "identity_margin": 0.031,
+                  "identity_confirmed": true,
+                  "x1": 624,
+                  "y1": 374,
+                  "x2": 781,
+                  "y2": 495,
+                  "track_id": 47,
+                  "head_point": [
+                    781,
+                    441
+                  ],
+                  "tail_point": [
+                    624,
+                    456
+                  ],
+                  "head_confidence": 0.141
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "food",
+              "event_label": "food",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/food/20260603T214203_358184.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T21:42:03.358184",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.667,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.717,
+                  "identity_margin": 0.049,
+                  "identity_confirmed": true,
+                  "x1": 965,
+                  "y1": 465,
+                  "x2": 1060,
+                  "y2": 592,
+                  "track_id": 38,
+                  "head_point": [
+                    1047,
+                    465
+                  ],
+                  "tail_point": [
+                    965,
+                    590
+                  ],
+                  "head_confidence": 0.04
+                },
+                {
+                  "label": "cat",
+                  "confidence": 0.285,
+                  "pet_id": "hudou",
+                  "pet_name": "胡豆",
+                  "identity_score": 0.707,
+                  "identity_margin": 0.01,
+                  "identity_confirmed": false,
+                  "x1": 668,
+                  "y1": 374,
+                  "x2": 781,
+                  "y2": 496,
+                  "track_id": 39,
+                  "head_point": [
+                    678,
+                    490
+                  ],
+                  "tail_point": [
+                    781,
+                    394
+                  ],
+                  "head_confidence": 0.584
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "food",
+              "event_label": "food",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/food/20260603T213338_874571.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T21:33:38.874571",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.483,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.709,
+                  "identity_margin": 0.033,
+                  "identity_confirmed": true,
+                  "x1": 969,
+                  "y1": 465,
+                  "x2": 1058,
+                  "y2": 593,
+                  "track_id": 48,
+                  "head_point": [
+                    1041,
+                    465
+                  ],
+                  "tail_point": [
+                    970,
+                    593
+                  ],
+                  "head_confidence": 0.052
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "food",
+              "event_label": "food",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/food/20260603T214634_284083.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T21:46:34.284083",
+              "detections": [
+                {
+                  "label": "dog",
+                  "confidence": 0.268,
+                  "pet_id": "bobi",
+                  "pet_name": "波比",
+                  "identity_score": 0.731,
+                  "identity_margin": 0.731,
+                  "identity_confirmed": true,
+                  "x1": 970,
+                  "y1": 462,
+                  "x2": 1068,
+                  "y2": 593,
+                  "track_id": 69,
+                  "head_point": [
+                    1051,
+                    462
+                  ],
+                  "tail_point": [
+                    970,
+                    591
+                  ],
+                  "head_confidence": 0.029
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "water",
+              "event_label": "food / water",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/water/20260603T213819_646994.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T21:38:19.646994",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.601,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.651,
+                  "identity_margin": 0.032,
+                  "identity_confirmed": false,
+                  "x1": 969,
+                  "y1": 464,
+                  "x2": 1060,
+                  "y2": 592,
+                  "track_id": 10,
+                  "head_point": [
+                    1046,
+                    464
+                  ],
+                  "tail_point": [
+                    969,
+                    591
+                  ],
+                  "head_confidence": 0.045
+                },
+                {
+                  "label": "cat",
+                  "confidence": 0.55,
+                  "pet_id": "tudou",
+                  "pet_name": "土豆",
+                  "identity_score": 0.639,
+                  "identity_margin": 0.012,
+                  "identity_confirmed": false,
+                  "x1": 458,
+                  "y1": 270,
+                  "x2": 551,
+                  "y2": 363,
+                  "track_id": 18,
+                  "head_point": [
+                    458,
+                    297
+                  ],
+                  "tail_point": [
+                    551,
+                    304
+                  ],
+                  "head_confidence": 0.382
+                },
+                {
+                  "label": "dog",
+                  "confidence": 0.45,
+                  "pet_id": "bobi",
+                  "pet_name": "波比",
+                  "identity_score": 0.649,
+                  "identity_margin": 0.649,
+                  "identity_confirmed": false,
+                  "x1": 458,
+                  "y1": 269,
+                  "x2": 551,
+                  "y2": 364,
+                  "track_id": 20,
+                  "head_point": [
+                    458,
+                    350
+                  ],
+                  "tail_point": [
+                    551,
+                    316
+                  ],
+                  "head_confidence": 0.419
+                },
+                {
+                  "label": "cat",
+                  "confidence": 0.389,
+                  "pet_id": "hudou",
+                  "pet_name": "胡豆",
+                  "identity_score": 0.675,
+                  "identity_margin": 0.013,
+                  "identity_confirmed": false,
+                  "x1": 667,
+                  "y1": 352,
+                  "x2": 762,
+                  "y2": 503,
+                  "track_id": 19,
+                  "head_point": [
+                    701,
+                    503
+                  ],
+                  "tail_point": [
+                    741,
+                    359
+                  ],
+                  "head_confidence": 0.454
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "litter",
+              "event_label": "food / litter",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/litter/20260603T212642_158782.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T21:26:42.158782",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.826,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.65,
+                  "identity_margin": 0.039,
+                  "identity_confirmed": false,
+                  "x1": 971,
+                  "y1": 469,
+                  "x2": 1059,
+                  "y2": 592,
+                  "track_id": 8,
+                  "head_point": [
+                    1047,
+                    469
+                  ],
+                  "tail_point": [
+                    971,
+                    589
+                  ],
+                  "head_confidence": 0.059
+                },
+                {
+                  "label": "cat",
+                  "confidence": 0.326,
+                  "pet_id": "hudou",
+                  "pet_name": "胡豆",
+                  "identity_score": 0.702,
+                  "identity_margin": 0.014,
+                  "identity_confirmed": false,
+                  "x1": 659,
+                  "y1": 393,
+                  "x2": 765,
+                  "y2": 519,
+                  "track_id": 12,
+                  "head_point": [
+                    688,
+                    519
+                  ],
+                  "tail_point": [
+                    755,
+                    395
+                  ],
+                  "head_confidence": 0.085
+                },
+                {
+                  "label": "cat",
+                  "confidence": 0.254,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.468,
+                  "identity_margin": 0.027,
+                  "identity_confirmed": false,
+                  "x1": 803,
+                  "y1": 686,
+                  "x2": 878,
+                  "y2": 720,
+                  "track_id": 13,
+                  "head_point": [
+                    878,
+                    715
+                  ],
+                  "tail_point": [
+                    803,
+                    689
+                  ],
+                  "head_confidence": 0.352
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "food",
+              "event_label": "food / litter",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/food/20260603T212907_117661.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T21:29:07.117661",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.695,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.652,
+                  "identity_margin": 0.048,
+                  "identity_confirmed": false,
+                  "x1": 967,
+                  "y1": 466,
+                  "x2": 1062,
+                  "y2": 593,
+                  "track_id": 25,
+                  "head_point": [
+                    1051,
+                    466
+                  ],
+                  "tail_point": [
+                    967,
+                    590
+                  ],
+                  "head_confidence": 0.041
+                },
+                {
+                  "label": "dog",
+                  "confidence": 0.383,
+                  "pet_id": "bobi",
+                  "pet_name": "波比",
+                  "identity_score": 0.686,
+                  "identity_margin": 0.686,
+                  "identity_confirmed": false,
+                  "x1": 658,
+                  "y1": 395,
+                  "x2": 773,
+                  "y2": 520,
+                  "track_id": 23,
+                  "head_point": [
+                    683,
+                    518
+                  ],
+                  "tail_point": [
+                    765,
+                    403
+                  ],
+                  "head_confidence": 0.114
+                },
+                {
+                  "label": "cat",
+                  "confidence": 0.261,
+                  "pet_id": "hudou",
+                  "pet_name": "胡豆",
+                  "identity_score": 0.718,
+                  "identity_margin": 0.003,
+                  "identity_confirmed": false,
+                  "x1": 659,
+                  "y1": 396,
+                  "x2": 773,
+                  "y2": 519,
+                  "track_id": 26,
+                  "head_point": [
+                    681,
+                    517
+                  ],
+                  "tail_point": [
+                    766,
+                    405
+                  ],
+                  "head_confidence": 0.106
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "food",
+              "event_label": "food / litter",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/food/20260603T213601_845732.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T21:36:01.845732",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.872,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.655,
+                  "identity_margin": 0.028,
+                  "identity_confirmed": false,
+                  "x1": 970,
+                  "y1": 464,
+                  "x2": 1060,
+                  "y2": 593,
+                  "track_id": 1,
+                  "head_point": [
+                    1045,
+                    464
+                  ],
+                  "tail_point": [
+                    970,
+                    592
+                  ],
+                  "head_confidence": 0.058
+                },
+                {
+                  "label": "cat",
+                  "confidence": 0.557,
+                  "pet_id": "hudou",
+                  "pet_name": "胡豆",
+                  "identity_score": 0.73,
+                  "identity_margin": 0.002,
+                  "identity_confirmed": false,
+                  "x1": 667,
+                  "y1": 342,
+                  "x2": 766,
+                  "y2": 504,
+                  "track_id": 4,
+                  "head_point": [
+                    706,
+                    504
+                  ],
+                  "tail_point": [
+                    731,
+                    348
+                  ],
+                  "head_confidence": 0.279
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "litter",
+              "event_label": "food / litter",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/litter/20260603T212813_404141.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T21:28:13.404141",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.864,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.695,
+                  "identity_margin": 0.068,
+                  "identity_confirmed": false,
+                  "x1": 971,
+                  "y1": 468,
+                  "x2": 1066,
+                  "y2": 593,
+                  "track_id": 8,
+                  "head_point": [
+                    1058,
+                    468
+                  ],
+                  "tail_point": [
+                    971,
+                    588
+                  ],
+                  "head_confidence": 0.061
+                },
+                {
+                  "label": "cat",
+                  "confidence": 0.564,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.743,
+                  "identity_margin": 0.0,
+                  "identity_confirmed": false,
+                  "x1": 658,
+                  "y1": 391,
+                  "x2": 762,
+                  "y2": 519,
+                  "track_id": 17,
+                  "head_point": [
+                    687,
+                    519
+                  ],
+                  "tail_point": [
+                    753,
+                    394
+                  ],
+                  "head_confidence": 0.094
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "litter",
+              "event_label": "food / litter",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/litter/20260603T213542_512279.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T21:35:42.512279",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.854,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.662,
+                  "identity_margin": 0.042,
+                  "identity_confirmed": false,
+                  "x1": 973,
+                  "y1": 464,
+                  "x2": 1062,
+                  "y2": 591,
+                  "track_id": 1,
+                  "head_point": [
+                    1049,
+                    464
+                  ],
+                  "tail_point": [
+                    973,
+                    590
+                  ],
+                  "head_confidence": 0.096
+                },
+                {
+                  "label": "cat",
+                  "confidence": 0.717,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.733,
+                  "identity_margin": 0.009,
+                  "identity_confirmed": false,
+                  "x1": 667,
+                  "y1": 343,
+                  "x2": 768,
+                  "y2": 503,
+                  "track_id": 4,
+                  "head_point": [
+                    706,
+                    503
+                  ],
+                  "tail_point": [
+                    733,
+                    348
+                  ],
+                  "head_confidence": 0.252
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "litter",
+              "event_label": "food / litter",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/litter/20260603T213643_013278.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T21:36:43.013278",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.852,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.65,
+                  "identity_margin": 0.036,
+                  "identity_confirmed": false,
+                  "x1": 970,
+                  "y1": 464,
+                  "x2": 1068,
+                  "y2": 592,
+                  "track_id": 5,
+                  "head_point": [
+                    1059,
+                    464
+                  ],
+                  "tail_point": [
+                    970,
+                    588
+                  ],
+                  "head_confidence": 0.049
+                },
+                {
+                  "label": "cat",
+                  "confidence": 0.349,
+                  "pet_id": "hudou",
+                  "pet_name": "胡豆",
+                  "identity_score": 0.688,
+                  "identity_margin": 0.008,
+                  "identity_confirmed": false,
+                  "x1": 668,
+                  "y1": 340,
+                  "x2": 756,
+                  "y2": 503,
+                  "track_id": 6,
+                  "head_point": [
+                    706,
+                    503
+                  ],
+                  "tail_point": [
+                    727,
+                    351
+                  ],
+                  "head_confidence": 0.207
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "food",
+              "event_label": "food",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/food/20260603T213108_067813.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T21:31:08.067813",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.847,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.665,
+                  "identity_margin": 0.047,
+                  "identity_confirmed": false,
+                  "x1": 968,
+                  "y1": 466,
+                  "x2": 1061,
+                  "y2": 593,
+                  "track_id": 34,
+                  "head_point": [
+                    1049,
+                    466
+                  ],
+                  "tail_point": [
+                    968,
+                    591
+                  ],
+                  "head_confidence": 0.044
+                },
+                {
+                  "label": "cat",
+                  "confidence": 0.648,
+                  "pet_id": "hudou",
+                  "pet_name": "胡豆",
+                  "identity_score": 0.709,
+                  "identity_margin": 0.007,
+                  "identity_confirmed": false,
+                  "x1": 669,
+                  "y1": 346,
+                  "x2": 775,
+                  "y2": 503,
+                  "track_id": 37,
+                  "head_point": [
+                    704,
+                    503
+                  ],
+                  "tail_point": [
+                    747,
+                    354
+                  ],
+                  "head_confidence": 0.141
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "food",
+              "event_label": "food",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/food/20260603T214534_528541.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T21:45:34.528541",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.842,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.655,
+                  "identity_margin": 0.047,
+                  "identity_confirmed": false,
+                  "x1": 969,
+                  "y1": 465,
+                  "x2": 1065,
+                  "y2": 594,
+                  "track_id": 62,
+                  "head_point": [
+                    1051,
+                    465
+                  ],
+                  "tail_point": [
+                    969,
+                    593
+                  ],
+                  "head_confidence": 0.031
+                },
+                {
+                  "label": "cat",
+                  "confidence": 0.28,
+                  "pet_id": "hudou",
+                  "pet_name": "胡豆",
+                  "identity_score": 0.719,
+                  "identity_margin": 0.027,
+                  "identity_confirmed": false,
+                  "x1": 660,
+                  "y1": 407,
+                  "x2": 778,
+                  "y2": 499,
+                  "track_id": 64,
+                  "head_point": [
+                    660,
+                    476
+                  ],
+                  "tail_point": [
+                    778,
+                    441
+                  ],
+                  "head_confidence": 0.009
+                }
+              ]
             }
           ],
-          "updated_at": "2026-06-03T23:15:42.810395+08:00"
+          "updated_at": "2026-06-04T08:23:31.178977+08:00"
+        },
+        {
+          "time": "22:00",
+          "status": "review_needed",
+          "camera": "living-room",
+          "camera_label": "客厅",
+          "title": "监控已抓拍，待确认",
+          "description": "这一小时有 16 张事件/巡检抓拍，但本地 YOLO / 视觉分析没有给出足够稳定的宠物确认结果。先保留原始画面，后续进入人工确认和训练样本队列。",
+          "badge": "待确认",
+          "image": "",
+          "raw_image": "services/catdaily/captures-living-room/events/2026-06-03/food/20260603T224946_759900.jpg",
+          "styled_image": "",
+          "location": "客厅",
+          "activity": "待人工确认",
+          "surroundings": "监控抓拍已保存，模型低置信或未确认。",
+          "prompt": "",
+          "analysis": {},
+          "captures": [
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "food",
+              "event_label": "food",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/food/20260603T224946_759900.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T22:49:46.759900",
+              "detections": [
+                {
+                  "label": "dog",
+                  "confidence": 0.769,
+                  "pet_id": "bobi",
+                  "pet_name": "波比",
+                  "identity_score": 0.709,
+                  "identity_margin": 0.709,
+                  "identity_confirmed": true,
+                  "x1": 847,
+                  "y1": 392,
+                  "x2": 933,
+                  "y2": 493,
+                  "track_id": 96,
+                  "head_point": [
+                    865,
+                    493
+                  ],
+                  "tail_point": [
+                    922,
+                    392
+                  ],
+                  "head_confidence": 0.019
+                },
+                {
+                  "label": "dog",
+                  "confidence": 0.432,
+                  "pet_id": "bobi",
+                  "pet_name": "波比",
+                  "identity_score": 0.72,
+                  "identity_margin": 0.72,
+                  "identity_confirmed": true,
+                  "x1": 733,
+                  "y1": 379,
+                  "x2": 885,
+                  "y2": 563,
+                  "track_id": 92,
+                  "head_point": [
+                    885,
+                    554
+                  ],
+                  "tail_point": [
+                    733,
+                    402
+                  ],
+                  "head_confidence": 0.247
+                },
+                {
+                  "label": "dog",
+                  "confidence": 0.425,
+                  "pet_id": "bobi",
+                  "pet_name": "波比",
+                  "identity_score": 0.686,
+                  "identity_margin": 0.686,
+                  "identity_confirmed": false,
+                  "x1": 1091,
+                  "y1": 456,
+                  "x2": 1170,
+                  "y2": 544,
+                  "track_id": 97,
+                  "head_point": [
+                    1091,
+                    504
+                  ],
+                  "tail_point": [
+                    1170,
+                    519
+                  ],
+                  "head_confidence": 0.035
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "litter",
+              "event_label": "litter",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/litter/20260603T221632_964536.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T22:16:32.964536",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.473,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.724,
+                  "identity_margin": 0.037,
+                  "identity_confirmed": true,
+                  "x1": 776,
+                  "y1": 418,
+                  "x2": 888,
+                  "y2": 517,
+                  "track_id": 5,
+                  "head_point": [
+                    776,
+                    499
+                  ],
+                  "tail_point": [
+                    888,
+                    453
+                  ],
+                  "head_confidence": 0.037
+                },
+                {
+                  "label": "dog",
+                  "confidence": 0.304,
+                  "pet_id": "bobi",
+                  "pet_name": "波比",
+                  "identity_score": 0.76,
+                  "identity_margin": 0.76,
+                  "identity_confirmed": true,
+                  "x1": 729,
+                  "y1": 356,
+                  "x2": 890,
+                  "y2": 516,
+                  "track_id": 7,
+                  "head_point": [
+                    890,
+                    386
+                  ],
+                  "tail_point": [
+                    729,
+                    450
+                  ],
+                  "head_confidence": 0.572
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "litter",
+              "event_label": "litter",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/litter/20260603T224220_143265.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T22:42:20.143265",
+              "detections": [
+                {
+                  "label": "dog",
+                  "confidence": 0.528,
+                  "pet_id": "bobi",
+                  "pet_name": "波比",
+                  "identity_score": 0.517,
+                  "identity_margin": 0.517,
+                  "identity_confirmed": false,
+                  "x1": 0,
+                  "y1": 488,
+                  "x2": 42,
+                  "y2": 599,
+                  "track_id": 16,
+                  "head_point": [
+                    30,
+                    599
+                  ],
+                  "tail_point": [
+                    13,
+                    514
+                  ],
+                  "head_confidence": 0.07
+                },
+                {
+                  "label": "cat",
+                  "confidence": 0.4,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.703,
+                  "identity_margin": 0.044,
+                  "identity_confirmed": true,
+                  "x1": 678,
+                  "y1": 346,
+                  "x2": 776,
+                  "y2": 462,
+                  "track_id": 13,
+                  "head_point": [
+                    765,
+                    459
+                  ],
+                  "tail_point": [
+                    687,
+                    355
+                  ],
+                  "head_confidence": 0.159
+                },
+                {
+                  "label": "cat",
+                  "confidence": 0.264,
+                  "pet_id": "hudou",
+                  "pet_name": "胡豆",
+                  "identity_score": 0.72,
+                  "identity_margin": 0.01,
+                  "identity_confirmed": false,
+                  "x1": 737,
+                  "y1": 465,
+                  "x2": 863,
+                  "y2": 595,
+                  "track_id": 12,
+                  "head_point": [
+                    763,
+                    466
+                  ],
+                  "tail_point": [
+                    859,
+                    595
+                  ],
+                  "head_confidence": 0.123
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "litter",
+              "event_label": "litter",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/litter/20260603T223805_279974.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T22:38:05.279974",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.889,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.686,
+                  "identity_margin": 0.0,
+                  "identity_confirmed": false,
+                  "x1": 788,
+                  "y1": 409,
+                  "x2": 881,
+                  "y2": 636,
+                  "track_id": 129,
+                  "head_point": [
+                    834,
+                    636
+                  ],
+                  "tail_point": [
+                    848,
+                    419
+                  ],
+                  "head_confidence": 0.333
+                },
+                {
+                  "label": "cat",
+                  "confidence": 0.354,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.708,
+                  "identity_margin": 0.064,
+                  "identity_confirmed": true,
+                  "x1": 685,
+                  "y1": 334,
+                  "x2": 784,
+                  "y2": 461,
+                  "track_id": 131,
+                  "head_point": [
+                    732,
+                    334
+                  ],
+                  "tail_point": [
+                    691,
+                    461
+                  ],
+                  "head_confidence": 0.071
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "litter",
+              "event_label": "litter",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/litter/20260603T221602_858082.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T22:16:02.858082",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.636,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.728,
+                  "identity_margin": 0.044,
+                  "identity_confirmed": true,
+                  "x1": 776,
+                  "y1": 427,
+                  "x2": 892,
+                  "y2": 517,
+                  "track_id": 5,
+                  "head_point": [
+                    892,
+                    441
+                  ],
+                  "tail_point": [
+                    776,
+                    509
+                  ],
+                  "head_confidence": 0.004
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "litter",
+              "event_label": "litter",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/litter/20260603T222220_622426.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T22:22:20.622426",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.616,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.731,
+                  "identity_margin": 0.053,
+                  "identity_confirmed": true,
+                  "x1": 773,
+                  "y1": 382,
+                  "x2": 867,
+                  "y2": 507,
+                  "track_id": 4,
+                  "head_point": [
+                    794,
+                    507
+                  ],
+                  "tail_point": [
+                    860,
+                    383
+                  ],
+                  "head_confidence": 0.243
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "food",
+              "event_label": "food",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/food/20260603T223438_720325.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T22:34:38.720325",
+              "detections": [
+                {
+                  "label": "dog",
+                  "confidence": 0.489,
+                  "pet_id": "bobi",
+                  "pet_name": "波比",
+                  "identity_score": 0.744,
+                  "identity_margin": 0.744,
+                  "identity_confirmed": true,
+                  "x1": 1090,
+                  "y1": 366,
+                  "x2": 1203,
+                  "y2": 484,
+                  "track_id": 96,
+                  "head_point": [
+                    1169,
+                    366
+                  ],
+                  "tail_point": [
+                    1093,
+                    484
+                  ],
+                  "head_confidence": 0.034
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "litter",
+              "event_label": "litter",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/litter/20260603T222120_178267.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T22:21:20.178267",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.458,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.711,
+                  "identity_margin": 0.05,
+                  "identity_confirmed": true,
+                  "x1": 774,
+                  "y1": 377,
+                  "x2": 869,
+                  "y2": 507,
+                  "track_id": 1,
+                  "head_point": [
+                    794,
+                    507
+                  ],
+                  "tail_point": [
+                    859,
+                    386
+                  ],
+                  "head_confidence": 0.001
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "water",
+              "event_label": "water",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/water/20260603T223231_825378.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T22:32:31.825378",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.253,
+                  "pet_id": "hudou",
+                  "pet_name": "胡豆",
+                  "identity_score": 0.76,
+                  "identity_margin": 0.033,
+                  "identity_confirmed": true,
+                  "x1": 760,
+                  "y1": 410,
+                  "x2": 855,
+                  "y2": 628,
+                  "track_id": 73,
+                  "head_point": [
+                    813,
+                    628
+                  ],
+                  "tail_point": [
+                    816,
+                    418
+                  ],
+                  "head_confidence": 0.203
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "water",
+              "event_label": "water",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/water/20260603T223201_877083.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T22:32:01.877083",
+              "detections": [
+                {
+                  "label": "dog",
+                  "confidence": 0.863,
+                  "pet_id": "bobi",
+                  "pet_name": "波比",
+                  "identity_score": 0.67,
+                  "identity_margin": 0.67,
+                  "identity_confirmed": false,
+                  "x1": 953,
+                  "y1": 453,
+                  "x2": 1002,
+                  "y2": 585,
+                  "track_id": 63,
+                  "head_point": [
+                    971,
+                    584
+                  ],
+                  "tail_point": [
+                    975,
+                    453
+                  ],
+                  "head_confidence": 0.033
+                },
+                {
+                  "label": "cat",
+                  "confidence": 0.784,
+                  "pet_id": "hudou",
+                  "pet_name": "胡豆",
+                  "identity_score": 0.742,
+                  "identity_margin": 0.017,
+                  "identity_confirmed": false,
+                  "x1": 731,
+                  "y1": 415,
+                  "x2": 856,
+                  "y2": 623,
+                  "track_id": 67,
+                  "head_point": [
+                    810,
+                    623
+                  ],
+                  "tail_point": [
+                    803,
+                    422
+                  ],
+                  "head_confidence": 0.417
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "water",
+              "event_label": "water",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/water/20260603T222753_626154.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T22:27:53.626154",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.614,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.675,
+                  "identity_margin": 0.01,
+                  "identity_confirmed": false,
+                  "x1": 1108,
+                  "y1": 422,
+                  "x2": 1196,
+                  "y2": 504,
+                  "track_id": 27,
+                  "head_point": [
+                    1109,
+                    430
+                  ],
+                  "tail_point": [
+                    1196,
+                    488
+                  ],
+                  "head_confidence": 0.084
+                },
+                {
+                  "label": "cat",
+                  "confidence": 0.403,
+                  "pet_id": "hudou",
+                  "pet_name": "胡豆",
+                  "identity_score": 0.771,
+                  "identity_margin": 0.004,
+                  "identity_confirmed": false,
+                  "x1": 733,
+                  "y1": 432,
+                  "x2": 853,
+                  "y2": 598,
+                  "track_id": 26,
+                  "head_point": [
+                    837,
+                    443
+                  ],
+                  "tail_point": [
+                    767,
+                    598
+                  ],
+                  "head_confidence": 0.493
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "litter",
+              "event_label": "litter / area_1779542930638",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/litter/20260603T223734_996793.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T22:37:34.996793",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.375,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.683,
+                  "identity_margin": 0.035,
+                  "identity_confirmed": false,
+                  "x1": 686,
+                  "y1": 334,
+                  "x2": 784,
+                  "y2": 462,
+                  "track_id": 126,
+                  "head_point": [
+                    688,
+                    462
+                  ],
+                  "tail_point": [
+                    738,
+                    334
+                  ],
+                  "head_confidence": 0.176
+                },
+                {
+                  "label": "cat",
+                  "confidence": 0.273,
+                  "pet_id": "hudou",
+                  "pet_name": "胡豆",
+                  "identity_score": 0.649,
+                  "identity_margin": 0.007,
+                  "identity_confirmed": false,
+                  "x1": 681,
+                  "y1": 277,
+                  "x2": 741,
+                  "y2": 374,
+                  "track_id": 125,
+                  "head_point": [
+                    706,
+                    374
+                  ],
+                  "tail_point": [
+                    713,
+                    277
+                  ],
+                  "head_confidence": 0.002
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "food",
+              "event_label": "food",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/food/20260603T222651_186896.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T22:26:51.186896",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.668,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.665,
+                  "identity_margin": 0.009,
+                  "identity_confirmed": false,
+                  "x1": 1107,
+                  "y1": 420,
+                  "x2": 1193,
+                  "y2": 504,
+                  "track_id": 19,
+                  "head_point": [
+                    1193,
+                    501
+                  ],
+                  "tail_point": [
+                    1120,
+                    420
+                  ],
+                  "head_confidence": 0.026
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "area_1779542930638",
+              "event_label": "area_1779542930638",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/area_1779542930638/20260603T225749_860892.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T22:57:49.860892",
+              "detections": [
+                {
+                  "label": "dog",
+                  "confidence": 0.598,
+                  "pet_id": "bobi",
+                  "pet_name": "波比",
+                  "identity_score": 0.479,
+                  "identity_margin": 0.479,
+                  "identity_confirmed": false,
+                  "x1": 695,
+                  "y1": 304,
+                  "x2": 728,
+                  "y2": 375,
+                  "track_id": 154,
+                  "head_point": [
+                    712,
+                    304
+                  ],
+                  "tail_point": [
+                    704,
+                    373
+                  ],
+                  "head_confidence": 0.044
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "bathroom",
+              "camera_label": "卫生间",
+              "event_name": "food",
+              "event_label": "food",
+              "image": "services/catdaily/captures/events/2026-06-03/food/20260603T223641_636018.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T22:36:41.636018",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.55,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.68,
+                  "identity_margin": 0.031,
+                  "identity_confirmed": false,
+                  "x1": 621,
+                  "y1": 499,
+                  "x2": 736,
+                  "y2": 702,
+                  "track_id": 6,
+                  "head_point": [
+                    670,
+                    702
+                  ],
+                  "tail_point": [
+                    691,
+                    499
+                  ],
+                  "head_confidence": 0.245
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "litter",
+              "event_label": "litter",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/litter/20260603T223835_614186.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T22:38:35.614186",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.525,
+                  "pet_id": "wandou",
+                  "pet_name": "豌豆",
+                  "identity_score": 0.674,
+                  "identity_margin": 0.002,
+                  "identity_confirmed": false,
+                  "x1": 786,
+                  "y1": 411,
+                  "x2": 881,
+                  "y2": 631,
+                  "track_id": 135,
+                  "head_point": [
+                    835,
+                    631
+                  ],
+                  "tail_point": [
+                    847,
+                    420
+                  ],
+                  "head_confidence": 0.341
+                }
+              ]
+            }
+          ],
+          "updated_at": "2026-06-04T08:23:31.224476+08:00"
+        },
+        {
+          "time": "23:00",
+          "status": "review_needed",
+          "camera": "living-room",
+          "camera_label": "客厅",
+          "title": "监控已抓拍，待确认",
+          "description": "这一小时有 8 张事件/巡检抓拍，但本地 YOLO / 视觉分析没有给出足够稳定的宠物确认结果。先保留原始画面，后续进入人工确认和训练样本队列。",
+          "badge": "待确认",
+          "image": "",
+          "raw_image": "services/catdaily/captures-living-room/events/2026-06-03/litter/20260603T231239_975026.jpg",
+          "styled_image": "",
+          "location": "客厅",
+          "activity": "待人工确认",
+          "surroundings": "监控抓拍已保存，模型低置信或未确认。",
+          "prompt": "",
+          "analysis": {},
+          "captures": [
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "litter",
+              "event_label": "litter",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/litter/20260603T231239_975026.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T23:12:39.975026",
+              "detections": [
+                {
+                  "label": "dog",
+                  "confidence": 0.699,
+                  "pet_id": "bobi",
+                  "pet_name": "波比",
+                  "identity_score": 0.754,
+                  "identity_margin": 0.754,
+                  "identity_confirmed": true,
+                  "x1": 931,
+                  "y1": 513,
+                  "x2": 1024,
+                  "y2": 610,
+                  "track_id": 224,
+                  "head_point": [
+                    1014,
+                    541
+                  ],
+                  "tail_point": [
+                    931,
+                    602
+                  ],
+                  "head_confidence": 0.218
+                },
+                {
+                  "label": "cat",
+                  "confidence": 0.677,
+                  "pet_id": "hudou",
+                  "pet_name": "胡豆",
+                  "identity_score": 0.63,
+                  "identity_margin": 0.035,
+                  "identity_confirmed": false,
+                  "x1": 749,
+                  "y1": 420,
+                  "x2": 831,
+                  "y2": 653,
+                  "track_id": 223,
+                  "head_point": [
+                    798,
+                    653
+                  ],
+                  "tail_point": [
+                    792,
+                    427
+                  ],
+                  "head_confidence": 0.313
+                },
+                {
+                  "label": "dog",
+                  "confidence": 0.331,
+                  "pet_id": "bobi",
+                  "pet_name": "波比",
+                  "identity_score": 0.659,
+                  "identity_margin": 0.659,
+                  "identity_confirmed": false,
+                  "x1": 482,
+                  "y1": 301,
+                  "x2": 655,
+                  "y2": 479,
+                  "track_id": 225,
+                  "head_point": [
+                    504,
+                    479
+                  ],
+                  "tail_point": [
+                    599,
+                    301
+                  ],
+                  "head_confidence": 0.566
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "food",
+              "event_label": "food / litter",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/food/20260603T231241_562146.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T23:12:41.562146",
+              "detections": [
+                {
+                  "label": "dog",
+                  "confidence": 0.799,
+                  "pet_id": "bobi",
+                  "pet_name": "波比",
+                  "identity_score": 0.758,
+                  "identity_margin": 0.758,
+                  "identity_confirmed": true,
+                  "x1": 939,
+                  "y1": 515,
+                  "x2": 1019,
+                  "y2": 610,
+                  "track_id": 224,
+                  "head_point": [
+                    1018,
+                    560
+                  ],
+                  "tail_point": [
+                    939,
+                    586
+                  ],
+                  "head_confidence": 0.142
+                },
+                {
+                  "label": "cat",
+                  "confidence": 0.465,
+                  "pet_id": "hudou",
+                  "pet_name": "胡豆",
+                  "identity_score": 0.649,
+                  "identity_margin": 0.023,
+                  "identity_confirmed": false,
+                  "x1": 748,
+                  "y1": 428,
+                  "x2": 831,
+                  "y2": 649,
+                  "track_id": 223,
+                  "head_point": [
+                    798,
+                    649
+                  ],
+                  "tail_point": [
+                    790,
+                    428
+                  ],
+                  "head_confidence": 0.305
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "litter",
+              "event_label": "litter",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/litter/20260603T231410_490035.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T23:14:10.490035",
+              "detections": [
+                {
+                  "label": "dog",
+                  "confidence": 0.333,
+                  "pet_id": "bobi",
+                  "pet_name": "波比",
+                  "identity_score": 0.712,
+                  "identity_margin": 0.712,
+                  "identity_confirmed": true,
+                  "x1": 750,
+                  "y1": 421,
+                  "x2": 839,
+                  "y2": 655,
+                  "track_id": 238,
+                  "head_point": [
+                    798,
+                    654
+                  ],
+                  "tail_point": [
+                    799,
+                    426
+                  ],
+                  "head_confidence": 0.408
+                },
+                {
+                  "label": "cat",
+                  "confidence": 0.319,
+                  "pet_id": "hudou",
+                  "pet_name": "胡豆",
+                  "identity_score": 0.683,
+                  "identity_margin": 0.022,
+                  "identity_confirmed": false,
+                  "x1": 750,
+                  "y1": 423,
+                  "x2": 838,
+                  "y2": 653,
+                  "track_id": 235,
+                  "head_point": [
+                    798,
+                    652
+                  ],
+                  "tail_point": [
+                    799,
+                    426
+                  ],
+                  "head_confidence": 0.405
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "litter",
+              "event_label": "litter",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/litter/20260603T231139_643980.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T23:11:39.643980",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.605,
+                  "pet_id": "hudou",
+                  "pet_name": "胡豆",
+                  "identity_score": 0.79,
+                  "identity_margin": 0.03,
+                  "identity_confirmed": true,
+                  "x1": 483,
+                  "y1": 492,
+                  "x2": 637,
+                  "y2": 628,
+                  "track_id": 211,
+                  "head_point": [
+                    628,
+                    594
+                  ],
+                  "tail_point": [
+                    483,
+                    524
+                  ],
+                  "head_confidence": 0.562
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "litter",
+              "event_label": "litter",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/litter/20260603T231310_159362.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T23:13:10.159362",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.719,
+                  "pet_id": "hudou",
+                  "pet_name": "胡豆",
+                  "identity_score": 0.655,
+                  "identity_margin": 0.03,
+                  "identity_confirmed": false,
+                  "x1": 750,
+                  "y1": 429,
+                  "x2": 834,
+                  "y2": 654,
+                  "track_id": 230,
+                  "head_point": [
+                    800,
+                    654
+                  ],
+                  "tail_point": [
+                    791,
+                    429
+                  ],
+                  "head_confidence": 0.252
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "litter",
+              "event_label": "litter",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/litter/20260603T231209_776740.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T23:12:09.776740",
+              "detections": [
+                {
+                  "label": "cat",
+                  "confidence": 0.505,
+                  "pet_id": "hudou",
+                  "pet_name": "胡豆",
+                  "identity_score": 0.794,
+                  "identity_margin": 0.022,
+                  "identity_confirmed": false,
+                  "x1": 621,
+                  "y1": 480,
+                  "x2": 801,
+                  "y2": 662,
+                  "track_id": 216,
+                  "head_point": [
+                    797,
+                    510
+                  ],
+                  "tail_point": [
+                    666,
+                    662
+                  ],
+                  "head_confidence": 0.389
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "area_1779542930638",
+              "event_label": "area_1779542930638",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/area_1779542930638/20260603T231447_822408.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T23:14:47.822408",
+              "detections": [
+                {
+                  "label": "dog",
+                  "confidence": 0.377,
+                  "pet_id": "bobi",
+                  "pet_name": "波比",
+                  "identity_score": 0.441,
+                  "identity_margin": 0.441,
+                  "identity_confirmed": false,
+                  "x1": 710,
+                  "y1": 255,
+                  "x2": 753,
+                  "y2": 306,
+                  "track_id": 246,
+                  "head_point": [
+                    747,
+                    306
+                  ],
+                  "tail_point": [
+                    723,
+                    259
+                  ],
+                  "head_confidence": 0.018
+                }
+              ]
+            },
+            {
+              "source": "event_capture",
+              "camera": "living-room",
+              "camera_label": "客厅",
+              "event_name": "litter",
+              "event_label": "litter",
+              "image": "services/catdaily/captures-living-room/events/2026-06-03/litter/20260603T231340_293223.jpg",
+              "success": true,
+              "captured_at": "2026-06-03T23:13:40.293223",
+              "detections": []
+            }
+          ],
+          "updated_at": "2026-06-04T08:23:31.267751+08:00"
         }
       ]
     }
@@ -265,5 +2271,5 @@
     "temp_max": "33",
     "observed_at": "2026-06-03T21:45"
   },
-  "updated_at": "2026-06-03T23:15:42.810505+08:00"
+  "updated_at": "2026-06-04T08:23:31.267784+08:00"
 }
